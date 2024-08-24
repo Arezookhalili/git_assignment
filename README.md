@@ -15,11 +15,21 @@ c. Describe the steps to open a pull request?
     6. Click on "Create Pull Request" to submit it.
 
 d. Describe the steps to add a collaborator to a repository (share write permissions)
+    1. Go to your repository on GitHub.
+    2. Open "Settings" from the repository’s main page.
+    3. Go to "Collaborators & teams" under the "Access" section.
+    4. Add a collaborator by searching for and selecting the user.
+    5. Set write permissions and click "Add."
+    6. Confirm the collaborator’s access after they accept the invitation.
 
 e. What is the difference between git and GitHub?
+    Git is a Version Control Systemthe which is a tool that manages versions of our code. GitHub is a platform that hosts our Git repositories and provides additional features to facilitate collaboration and project management.
 
 f. What does git diff do?
+    It is used for reviewing changes before committing them, understanding differences between branches, and ensuring that our modifications align with our intended updates.
 
 g. What is the main branch?
+    The default branch of a repository, where the original and the most stable version of the code is maintained.
 
 h. Besides our initial commit if it is a new repository, should we directly push our changes directly into the main branch?
+    In some cases such as small projects, we can directly push our changes to "main" branch. But it’s usually recommended to work in a separate branch and use pull requests to keep code quality, collaboration, and stability.
